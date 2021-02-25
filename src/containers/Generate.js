@@ -7,7 +7,7 @@ const Generate=()=>{
     }
     return(
         <button type="button" onClick={handleS} className="bg-green-400 rounded-full p-1 shadow">
-            {arr[quotes]}
+            New Quote
         </button>
     )
 }
