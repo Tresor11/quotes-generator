@@ -6,8 +6,6 @@ const Quote=(props)=>{
     return(
         <div className="quote-cont p-2 my-52 mx-52 bg-white shadow rounded">
             <p>This is a quote</p>
-            <br/>
-            <br/>
             <Generate/>
         </div>
     )
