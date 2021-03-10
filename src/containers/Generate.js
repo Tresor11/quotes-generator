@@ -11,7 +11,7 @@ const Generate = () => {
       onClick={handleS}
       className="bg-green-400 rounded-full p-1 shadow"
     >
-      New Quote
+      Generate New Quote
     </button>
   );
 };
