@@ -11,7 +11,7 @@ const Quote=(props)=>{
             </div>
             <div className="button cont">
                 <span class="copy-text"></span>
-                <span class="add-favorite"></span>
+                <span class="add-favorite"><i className="fa fa-heart"></i></span>
                 <span class="share-twitter"></span>
                 <span class="share-facebook"></span>
             </div>
