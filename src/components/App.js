@@ -1,12 +1,12 @@
 import logo from '../Assets/logo.svg';
 import '../styles/App.css';
 import $ from 'jquery';
-import Quote from './Quote'
+import QuotesList from '../containers/Quotes'
 
 function App() {
   return (
     <div className="Apps container">
-      <Quote/>
+      <QuotesList/>
     </div>
   );
 }
