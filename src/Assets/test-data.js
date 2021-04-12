@@ -1,4 +1,5 @@
 let Data =[
+  "sonia",
   "Never underestimate the power of dreams and the influence of the human spirit. We are all the same in this notion: The potential for greatness lives within each of us.",
   "To achieve greatness one should live as if they will never die.",
   "People do not decide to become extraordinary. They decide to accomplish extraordinary things.",
