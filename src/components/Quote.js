@@ -1,4 +1,3 @@
-import Generate from "../containers/Generate";
 import PropTypes from "prop-types";
 import "../styles/Quote.scss";
 
