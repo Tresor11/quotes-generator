@@ -5,7 +5,7 @@ import Data from '../Assets/test-data'
 
 const QuotesList=()=>{
   return (
-    <div className="d-flex p-10 w-screen ">
+    <div className="dark:bg-gray-800 h-auto p-4 h-full">
       {Data.map((el) => (
         <Quote quote={el} />
       ))}

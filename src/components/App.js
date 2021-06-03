@@ -6,7 +6,7 @@ import Navbar from './Nav';
 
 function App() {
   return (
-    <div className="Apps container">
+    <div>
       <Navbar/>
       <QuotesList/>
     </div>
