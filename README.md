@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8522706e-4ceb-4207-bb31-a97d8e31a100/deploy-status)](https://app.netlify.com/sites/sleepy-banach-76ed09/deploys)
 # quotes-regenerator
 
 # Getting Started with Create React App
