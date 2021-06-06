@@ -2,7 +2,7 @@ import {toggleDarkMode} from '../helper/index'
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center dark:bg-gray-700 w-full p-4 bg-red-100">
+    <div className="flex justify-between items-center dark:bg-gray-700 w-full p-4 bg-white">
       <div className="logo-cont">
         <span className="log text-4xl dark:text-gray-100">QuoteSqr</span>
       </div>
@@ -10,7 +10,7 @@ const Navbar = () => {
         <span className="p-2 cursor-pointer dark-theme" id="switchTheme" onClick={toggleDarkMode}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6 dark:text-gray-100 dark:hover:text-yellow-500"
+            className="h-6 w-6 dark:text-gray-100 text-gray-600 dark:hover:text-yellow-500"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -26,7 +26,7 @@ const Navbar = () => {
         <span className="p-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 text-red-500"
+            class="h-6 w-6 hover:text-red-500 text-gray-600 cursor-pointer"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -42,7 +42,7 @@ const Navbar = () => {
         <span className="p-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 text-blue-500"
+            class="h-6 w-6 hover:text-blue-500 text-gray-600 cursor-pointer"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
